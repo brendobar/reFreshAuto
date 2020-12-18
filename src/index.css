@@ -1,0 +1,547 @@
+body{
+	background-color: #303030;
+	/*overflow-x:hidden;*/
+}
+a{
+	cursor: pointer!important;
+}
+.logo{
+	padding: 0 2vw;
+	height: 2.5vw;
+}
+.navbar-brand {
+	font-size: 2vw;
+}
+
+.ml-auto.navbar-nav>a {
+    color: white;
+    font-size: 1.5vw;
+    padding: 0 1.2rem;
+}
+a.active{
+    color: #fd7e14 !important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 80%;
+}
+.jumbotron {
+    padding: 15rem 0rem;
+    height: 30vw;
+}
+.btn-outline-warning {
+	position: absolute;
+	top: 70%;
+	left:64%;
+    color: #fd7e14;
+    border-color: #fd7e14;
+}
+.btn-outline-warning:hover {
+    color: #212121;
+    background-color: #fd7e14;
+    border-color: #fd7e14;
+}
+.btn-outline-warning.focus, .btn-outline-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgba(253,126,20,.5);
+}
+.wButton{
+	/*position: relative !important;
+    left: 30%;
+    top: 66%;*/
+    padding: 1rem 4rem !important;
+    border: 3px solid !important;
+    font-size: 1.5vw !important;
+    color: #fd7e14 !important;
+}
+.MuiGrid-root .MuiGrid-item > img{
+	width: 5vw;
+	height: auto;
+}
+.cWelc {
+    width: 40%;
+    position: absolute;
+    right: 0%;
+}
+.Call{
+	position: absolute;
+    left: 50%;
+    top: 70%;
+    width: 50%
+}
+.speed{
+	width: 6.5vw !important;
+}
+.dp {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10vw;
+    margin: 2vw;
+}
+.MuiDialog-paper {
+    margin: 90px !important;
+}
+.text {
+    position: relative;
+    font-size: 1.5vw;
+    text-align: center;
+    color: white;
+}
+.links {
+    display: inline-flex;
+    position: absolute;
+    top: 580px;
+}
+.gridCard{
+	margin-top:7vw;
+	margin-bottom:7vw;
+}
+.carousel-row img{
+	width: 20vw !important;
+	padding: 0 2vw;
+}
+.w-100{
+	height: 20vw;
+}
+.carousel-item.row.no-gutters > img {
+    width: 18vw;
+    padding: 0 3vw;
+}
+.scrollbar {
+	margin-left: 22px;
+	float: left;
+	height: 300px;
+	width: 65px;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+.force-overflow {
+	min-height: 450px;
+}
+
+#wrapper {
+	text-align: center;
+	margin: auto;
+}
+#style-1::-webkit-scrollbar {
+	width: 10px;
+	background-color: #F5F5F5;
+}
+::-webkit-scrollbar{
+    width:5px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 100px #fd7e14;
+	background-color: #555;
+}
+::-webkit-scrollbar-track {
+	border-radius: 10px;
+	background-color: #252525;
+}
+div#recipeCarousel {
+	margin-top:5vw;
+    background-color: #ffffff50;
+    border-radius: 3vw;
+    height: 15vw;
+    padding: 1vw 0;
+}
+.MuiDialog-paperWidthSm{
+	border-radius: 2vw;
+	width: 75vw !important;
+	max-width: none !important;
+	background-color: #232323 !important;
+	font-size: 1.5vw;
+}
+.MuiDialogActions-root{
+  	justify-content: center !important;
+}
+.MuiDialogContentText-root {
+    margin-top: 2vw !important;
+}
+.MuiInputBase-input{
+	padding: 0 0 .5vw 0 !important;
+}
+.MuiInputBase-root {
+	margin-left:5vw;
+    width: 60vw;
+    color: #fff !important;
+}
+.MuiInputBase-fullWidth {
+	color: #fff !important;
+    width: unset;
+    width: 90% !important;
+}
+.MuiInputBase-input {
+	color: #FFFFFFD2 !important;
+    width: 60vw !important;
+    border-bottom: 1px solid white !important;
+}
+.MuiInput-underline:before {
+    width: 60vw;
+}
+.MuiInput-underline:after {
+    width: 0;
+    height: 0;
+}
+:focus {
+  outline: none;
+}
+.MuiTypography-colorTextSecondary{
+	color:#fff !important;
+}
+.MuiIcon-root{
+	color: #fff !important;
+}
+.t-img-select{
+	position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.div_dp{
+	padding: 0 3vw;
+}
+.textWait{
+	font-size:1.5vw;
+	color:#fff;
+}
+.textAbout{
+	color:#fff;
+	font-size:1.2vw;
+	text-align:left;
+	text-indent: 5rem;
+}
+.textAboutBlock{
+	width: 60vw;
+}
+.textWelc{
+	width: 50%;
+    position: absolute;
+    top: 2vw;
+    right: -3%;
+}
+.imgWelc{
+	position: absolute;
+    left: 5%;
+    top: 0%;
+    width: 35vw;
+}    
+.textTitle{
+	margin-left:auto;
+	font-size:2vw;
+}
+.imgWait{
+	display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70vw;
+    padding: 0 1vw;
+}
+.textPostTitle{font-size:1.5vw}
+.bTextWait{
+	font-size:3vw;	
+	color:#fff;
+}
+.lTextWait{
+	font-size:1.5vw;
+	color:#fff;
+}
+.logo{
+	width: 20vw;
+}
+.navLink{
+	padding-right: 5vw;
+}
+.MuiSvgIcon-root{
+	fill: #fd7e14 !important;
+}
+#date-picker-inline-label{
+	color: white;
+	margin-left: 5vw;
+	margin-bottom: 12px;
+	font-size: 1.5vw;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+}
+.MuiInput-underline:before{
+    border-bottom: 1px solid white !important;
+}
+.MuiTypography-body1 {
+    font-size: 1.5vw;
+}
+.MuiPickersToolbar-toolbar, .MuiPickersClock-pin, .MuiPickersClockPointer-pointer, .MuiPickersClockPointer-noPoint, .MuiPickersCalendarHeader-iconButton, .MuiPickersDay-daySelected{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.MuiPickersDay-daySelected{
+	background-color: #fd7e14 !important;
+}
+.MuiPickersClockPointer-thumb{
+	border-color: #fd7e14 !important;
+}
+.MuiButton-textPrimary{
+	color: #fd7e14 !important;
+}
+.MuiPickersBasePicker-pickerView{
+	background-color: #303030;
+	max-width: none !important;
+}
+.MuiPickersBasePicker-pickerView{
+	background-color: #232323 !important;
+}
+.MuiPickersSlideTransition-transitionContainer > *{
+	color:white;
+}
+.MuiPickersCalendarHeader-dayLabel, .MuiPickersDay-day, .MuiPickersClockNumber-clockNumber{
+	color:#FFFFFFC8 !important;
+}
+input[type=checkbox]{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+input[type=checkbox]:checked + #card{
+    opacity: 1;
+    animation: bounce .4s linear forwards .2s;
+    background-image: url(./image/check.svg);
+    background-size: 1vw;
+    background-repeat: no-repeat;
+    
+}
+@keyframes bounce {
+    50% {
+        transform: scale(1.2);
+    }
+    75% {
+        transform: scale(.9);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@media (max-width: 1320px) {
+
+	.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+    	padding: 2vw!important;
+	}
+
+	.wButton {
+    	padding: 1rem 2rem;
+    }
+    .textAbout{
+		font-size: 1.6vw;
+		text-indent: 3rem;
+	}
+	.textAboutBlock{
+		width: 80vw;
+	}
+
+}
+@media (max-width: 1210px) and (min-width: 1140px){
+
+	.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+    	padding: 2.2vw!important;
+	}
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90%;
+	}
+}
+@media (max-width: 1140px) and (min-width: 1024px){
+
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+    	max-width: 90%;
+	}
+
+}
+@media (max-width: 1024px) {
+
+	.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+    	padding: 7vw!important;
+	}
+	.MuiGrid-root.trio.MuiGrid-item {
+    	padding: 2vw!important;
+	}
+	.dp {
+    	width: 15vw;
+	}
+	.MuiGrid-root .MuiGrid-item > img {
+    	width: 6vw;
+	}
+	.speed {
+    	width: 7.5vw !important;
+	}
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90%;
+	}
+	.textWait {
+    	width: 19vw;
+	}
+	.div_dp {
+    	width: 20vw;
+	}
+	.jumbotron {
+    	padding: 20% 0;
+	}
+	.cWelc{
+		width: 50vw;
+	}
+	.btn-outline-warning {
+    	top: 68%;
+    	left: 60%;
+	}
+	.textWelc{
+		right: 3vw;
+	}
+	label {
+	    display: inline-block;
+	    margin-bottom: 1.5rem;
+	    width: 40%;
+	}
+
+}
+@media (max-width: 768px) {
+	.jumbotron {
+    	left: 10%;
+    	position: relative;
+    	height: 70vw;
+    	width: 70vw;
+	}
+	.imgWelc{
+	    margin: 15% 15% 0% 15%;
+    	left: 0;
+    	width: 70%;
+	}  
+	.textWelc {
+	    position: relative;
+	    top: -45%;
+	    left:0;
+	    width: 80%;
+	}
+	.cWelc {
+    	width: 70vw;
+    	left: 3%;
+    	bottom: 20%;
+	}
+	.Call{
+		left: 25%;
+    	top: 83%;
+	}
+	.wButton{
+		padding: 1rem 2rem !important;
+	}
+	.MuiGrid-root .MuiGrid-item > img {
+    	width: 8vw;
+	}
+	.speed {
+    	width: 10.5vw !important;
+    	margin-left: -30%;
+	}
+	.wButton {
+    	position: relative;
+    	padding: 1rem 4rem;
+    	border: 3px solid;
+    	font-size: 1.5vw;
+    	left: 0;
+    	top: 85%;
+	}
+	.textTitle {
+    	font-size: 3vw;
+	}
+	.textPostTitle {
+    	font-size: 2vw;
+	}
+
+
+}
+@media (max-width: 600px) {
+
+	.textAbout {
+    	font-size: 3.6vw;
+    	text-indent: 1rem;
+	}
+	.textWait{
+		width: unset;
+		font-size: 4.5vw;
+	}
+	.textWelc {
+	    top: -40%;
+	    width: 90%;
+	}
+	.div_dp {
+	    padding: 0;
+	}
+	.imgWait{
+		display: inline-grid;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    margin-left: auto;
+	    margin-right: auto;
+	    width: 100%;
+	}
+	.imgWelc {
+	    margin: 20% 20% 0% 20%;
+	    left: 0;
+	    width: 60%;
+	}
+	.bTextWait {
+    	font-size: 4vw;
+    }
+    .lTextWait {
+    	font-size: 2.5vw;
+    }
+    .textTitle {
+	    font-size: 4vw;
+	}
+	.textPostTitle {
+	    font-size: 3vw;
+	}
+	p{
+		margin-bottom: .4rem;
+	}
+    .dp {
+    	width: 20vw;
+	}
+	.div_dp {
+		width: 100vw;
+	}
+	.cWelc{
+		bottom: 25%;
+	}
+	.wButton {
+	    position: relative;
+	    padding: 1rem 1rem !important;
+	    border: 1.5px solid;
+	    font-size: 3vw;
+	    left: 0;
+	    top: 80%;
+	}
+	.navbar-expand .navbar-nav .nav-link {
+	    font-size: 3vw;
+	}
+	.navLink{
+		padding-right: 0vw;
+	}
+	.navbar-expand .navbar-nav .nav-link {
+	    font-size: 2.5vw;
+	    padding: 0 0.6rem;
+	}
+	.logo {
+	    width: 10vw;
+	    padding: 0 2vw;
+	    height: 3.5vw;
+	}
+	.MuiDialog-paperWidthSm {
+		width: unset !important;
+	}
+	label {
+	    display: block;
+	    margin-bottom: 1.5rem;
+	    width: 100%
+	}
+	
+}
