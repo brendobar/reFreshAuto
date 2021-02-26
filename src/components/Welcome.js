@@ -7,7 +7,7 @@ import svg1 from '../image/welcome_svg/call-center.svg'
 import svg2 from '../image/welcome_svg/garant.svg'
 import svg3 from '../image/welcome_svg/speed.svg'
 
-import Call from './Call.js'
+import Callback from './Callback.js'
 
 
 const jumb = {
@@ -54,7 +54,7 @@ export default class Welcome extends Component{
 				    </Grid>
 				</Container>
 
-                <Call/>
+                <Callback/>
               </Jumbotron>
               
 

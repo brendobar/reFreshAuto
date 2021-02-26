@@ -1,0 +1,4 @@
+{
+    "serverPort":5000,
+    "dbURL": "mongodb+srv://brendobar:root@cluster0.le6bi.mongodb.net/Cluster0?retryWrites=true&w=majority"
+}

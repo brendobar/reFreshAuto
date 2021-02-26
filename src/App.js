@@ -1,14 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import NavigationBar from './components/NavigationBar';
-import Welcome from './components/Welcome.js';
-import Cardcontainer from './components/Cardcontainer.js'
-import Auto from './components/Auto.js'
-import About from './components/About.js'
-import Waitroom from './components/Waitroom.js'
+import Home from './pages/home'
+import About from './pages/about'
+import Contact from './pages/contact'
+import Price from "./pages/price"
 import Footer from './components/Footer.js';
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 
 
@@ -18,13 +16,23 @@ import {Container, Row, Col, Button} from 'react-bootstrap';
 
 function App() {
 
-const marginTop = {
-  marginTop: "10vw"
-};
+return(
+  <BrowserRouter>
+    <NavigationBar/>
+    
+    <Route path='/' exact component={Home}/>
+    <Route path='/about' component={About}/>
+    <Route path='/contact' component={Contact}/>
+    <Route path='/price' component={Price}></Route>
 
+    <Footer/>
+  </BrowserRouter>
+  
 
+);
 
-  return (
+{/*
+return (
     <div className="App">
       <NavigationBar/>
         <Container>
@@ -43,12 +51,12 @@ const marginTop = {
         <Waitroom/>
         <div style={{width:'0', height:'0', margin:'6vw 0'}}></div>
 
-        <About/>
-        <div style={{width:'0', height:'0', margin:'7vw 0'}}></div>
         
         <Footer/>
     </div>
   );
+*/}
+  
 }
 
 export default App;

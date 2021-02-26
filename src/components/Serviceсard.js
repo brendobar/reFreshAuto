@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {Button, Container} from 'react-bootstrap';
 import Pop from './Pop.js'
 
 

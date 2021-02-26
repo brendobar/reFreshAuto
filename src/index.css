@@ -5,6 +5,9 @@ body{
 a{
 	cursor: pointer!important;
 }
+a:hover{
+	
+}
 .logo{
 	padding: 0 2vw;
 	height: 2.5vw;
@@ -155,6 +158,9 @@ div#recipeCarousel {
 	background-color: #232323 !important;
 	font-size: 1.5vw;
 }
+.quickDialog .MuiDialog-paperWidthSm{
+	width: 40vw !important;
+}
 .MuiDialogActions-root{
   	justify-content: center !important;
 }
@@ -215,6 +221,7 @@ div#recipeCarousel {
 }
 .textAboutBlock{
 	width: 60vw;
+	margin-top: 7vw;
 }
 .textWelc{
 	width: 50%;
@@ -304,7 +311,46 @@ input[type=checkbox]{
     z-index: -1;
     opacity: 0;
 }
-
+.callbackForm{
+	width: 100%;
+	text-align: center;
+    border-radius: 25px;
+}
+.q {
+	text-align: left;
+    padding: 2vw;
+    margin-bottom: 1vw;
+    float: left;
+    display: block;
+    width: 50%;
+}
+.q.ph {
+    width: 100%;
+}
+.q input, textarea{
+	border: 1px solid #fd7e14;
+	border-width: 0 0 1px 0;
+	background-color: unset;
+	caret-color: #fd7e14;
+	color: white;
+}
+.q textarea{
+	width: 100%;
+}
+legend {
+    text-align: center;
+    padding-top: 2vw;
+}
+.submit_button{
+	text-align: center;
+	background-color: unset;
+	border: 1px solid #fd7e14;
+	color:#fff;
+	border-radius: 30px;
+	width: 10vw;
+	padding: 1vw;
+	margin-bottom: 2vw;
+}
 input[type=checkbox]:checked + #card{
     opacity: 1;
     animation: bounce .4s linear forwards .2s;
@@ -313,6 +359,78 @@ input[type=checkbox]:checked + #card{
     background-repeat: no-repeat;
     
 }
+.mapContent{
+	height: 40vw;
+	width: 40vw;
+}
+.contactsInfo{
+	color:rgb(204, 204, 204);
+	margin-top: 5vw;
+}
+.textContent {
+    display: inline-block;
+    width: 50vw;
+	height: 40vw;
+    margin-left: 5vw;
+    position: relative;
+}
+.mapContent {
+    height: 40vw;
+    width: 40vw;
+    display: inline-block;
+	position: absolute;
+}
+.textContent h1{
+	color: #fd7e14;
+	font-size: 3vw;
+	text-align: center;
+}
+.textContent p{
+	padding-top: 2vw;
+	font-size: 1.5vw;
+}
+.textContent a{
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: rgb(204, 204, 204);
+}
+.textContent p:first-of-type{
+	padding-top: 4vw;
+}
+.price {
+    display: flex;
+    justify-content: center;
+}
+table {
+	margin: 10vw;
+	background-color: unset !important;
+    border-collapse: collapse;
+    background-color: white;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 10px;
+    color: white;
+    
+  }
+  tr:first-child{
+	  background-color: #fd7e14;
+	  color: white;
+  }
+  th, td {
+	font-family:'Motnserrat',sans-serif;
+	text-align: left;
+	font-size: 1.5vw;
+	padding: 10px;
+	border: 3px solid #fd7e14;
+  }
+  
+  th {
+	background-color: #fd7e14;
+	color: white;
+  }
+  .Name{
+	  color: #fd7e14;
+  }
 @keyframes bounce {
     50% {
         transform: scale(1.2);
