@@ -398,7 +398,7 @@ input[type=checkbox]:checked + #card{
 	padding-top: 4vw;
 }
 .price {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 table {
@@ -430,6 +430,44 @@ table {
   }
   .Name{
 	  color: #fd7e14;
+	  text-align: center;
+  }
+  .clac{
+	  margin: 5vw 10vw;
+	  width: 80vw;
+	  position: relative;
+	  text-align: center;
+	  color: white;
+	  border: 1px solid #fd7e14;
+	  border-radius: 10px;
+	  background-color: #222;
+  }
+  .workPlace {
+	  display: flex;
+	  padding: 1vw;
+  }
+  .form-select{
+	  margin-left: 2vw;
+      border-radius: 20px;
+      padding: 0 2vw;
+      background-color: #353535;
+      color: orange;
+      border: 0;
+  }
+  .addButton{
+	  background-color: #fd7e14 !important;
+	  border: 0 !important;
+	  margin: 2vw !important;
+	  color: white !important;
+  }
+  .services{
+	  display: grid;
+	  width: 31vw;
+	  margin-left: auto;
+	  text-align: start;
+  }
+  .services label{
+	  width: 100%;
   }
 @keyframes bounce {
     50% {

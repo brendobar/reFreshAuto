@@ -9,7 +9,7 @@ export default class NavigationBar extends Component {
         return(
         <div>
           <Navbar variant="dark" style={{ zIndex:'9999', width:'100%', backgroundColor: '#202020'}}>
-            <Navbar.Brand href="#"><img class="logo" src="../logo.svg"/><img style={{width: '20vw'}} src="../logo2.svg"/></Navbar.Brand>
+            <Navbar.Brand href="/"><img className="logo" src="../logo.svg"/><img style={{width: '20vw'}} src="../logo2.svg"/></Navbar.Brand>
             <Nav className="ml-auto" style={{paddingRight: '5vw'}}>
 
               <a href="/">Главная</a>

@@ -1,11 +1,9 @@
 import React,{Component} from 'react';
 import '../App.css';
-import NavigationBar from '../components/NavigationBar';
 import Welcome from '../components/Welcome.js';
 import Cardcontainer from '../components/Cardcontainer.js'
 import Auto from '../components/Auto.js'
 import Waitroom from '../components/Waitroom.js'
-import Footer from '../components/Footer.js';
 import {Container, Row, Col, Button} from 'react-bootstrap';
 
 export default class Home extends Component{
